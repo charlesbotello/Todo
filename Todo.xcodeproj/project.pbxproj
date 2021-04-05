@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CB7C1797261B9BEC0024C93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C1796261B9BEC0024C93F /* AppDelegate.swift */; };
 		CB7C1799261B9BEC0024C93F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C1798261B9BEC0024C93F /* SceneDelegate.swift */; };
-		CB7C179B261B9BEC0024C93F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C179A261B9BEC0024C93F /* ViewController.swift */; };
+		CB7C179B261B9BEC0024C93F /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C179A261B9BEC0024C93F /* TodoListViewController.swift */; };
 		CB7C179E261B9BEC0024C93F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7C179C261B9BEC0024C93F /* Main.storyboard */; };
 		CB7C17A0261B9BED0024C93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7C179F261B9BED0024C93F /* Assets.xcassets */; };
 		CB7C17A3261B9BED0024C93F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7C17A1261B9BED0024C93F /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		CB7C1793261B9BEC0024C93F /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7C1796261B9BEC0024C93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB7C1798261B9BEC0024C93F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB7C179A261B9BEC0024C93F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB7C179A261B9BEC0024C93F /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		CB7C179D261B9BEC0024C93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB7C179F261B9BED0024C93F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB7C17A2261B9BED0024C93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				CB7C1796261B9BEC0024C93F /* AppDelegate.swift */,
 				CB7C1798261B9BEC0024C93F /* SceneDelegate.swift */,
-				CB7C179A261B9BEC0024C93F /* ViewController.swift */,
+				CB7C179A261B9BEC0024C93F /* TodoListViewController.swift */,
 				CB7C179C261B9BEC0024C93F /* Main.storyboard */,
 				CB7C179F261B9BED0024C93F /* Assets.xcassets */,
 				CB7C17A1261B9BED0024C93F /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7C179B261B9BEC0024C93F /* ViewController.swift in Sources */,
+				CB7C179B261B9BEC0024C93F /* TodoListViewController.swift in Sources */,
 				CB7C1797261B9BEC0024C93F /* AppDelegate.swift in Sources */,
 				CB7C1799261B9BEC0024C93F /* SceneDelegate.swift in Sources */,
 			);
@@ -287,13 +287,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7DADZ6PC56;
+				DEVELOPMENT_TEAM = S5J5C8J99Z;
 				INFOPLIST_FILE = Todo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.charliebotello.Todo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charliebotello.todo-ios.Todo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +306,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7DADZ6PC56;
+				DEVELOPMENT_TEAM = S5J5C8J99Z;
 				INFOPLIST_FILE = Todo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.charliebotello.Todo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charliebotello.todo-ios.Todo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
