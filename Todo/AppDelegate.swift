@@ -14,7 +14,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String)
+        
+        
         return true
+    }
+    
+    func applicationWillResignActive(_ application: UIApplication) {
+        // What to do if interrupted
+    }
+    
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        // App disappears the screen, enters background
+        print("appliciationDidEnterBackground")
+    }
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        print("applicationWillEnterForeground")
+    }
+    
+    func applicationWillTerminate(_ application: UIApplication) {
+        // When application is terminated
+        print("applicationWillTerminate")
     }
 
     // MARK: UISceneSession Lifecycle
