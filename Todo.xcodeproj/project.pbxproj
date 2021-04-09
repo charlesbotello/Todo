@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB4DAF4E26211E8900452FFA /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB4DAF4C26211E8900452FFA /* DataModel.xcdatamodeld */; };
 		CB4E73B2261F92B000C61AB7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E73B1261F92B000C61AB7 /* Item.swift */; };
 		CB7C1797261B9BEC0024C93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C1796261B9BEC0024C93F /* AppDelegate.swift */; };
 		CB7C1799261B9BEC0024C93F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C1798261B9BEC0024C93F /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB4DAF4D26211E8900452FFA /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		CB4E73B1261F92B000C61AB7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CB7C1793261B9BEC0024C93F /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7C1796261B9BEC0024C93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		CB4E73AB261F923400C61AB7 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				CB4DAF4C26211E8900452FFA /* DataModel.xcdatamodeld */,
 				CB4E73B1261F92B000C61AB7 /* Item.swift */,
 			);
 			path = "Data Model";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4E73B2261F92B000C61AB7 /* Item.swift in Sources */,
+				CB4DAF4E26211E8900452FFA /* DataModel.xcdatamodeld in Sources */,
 				CB7C179B261B9BEC0024C93F /* TodoListViewController.swift in Sources */,
 				CB7C1797261B9BEC0024C93F /* AppDelegate.swift in Sources */,
 				CB7C1799261B9BEC0024C93F /* SceneDelegate.swift in Sources */,
@@ -377,6 +381,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB4DAF4C26211E8900452FFA /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB4DAF4D26211E8900452FFA /* DataModel.xcdatamodel */,
+			);
+			currentVersion = CB4DAF4D26211E8900452FFA /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CB7C178B261B9BEC0024C93F /* Project object */;
 }
