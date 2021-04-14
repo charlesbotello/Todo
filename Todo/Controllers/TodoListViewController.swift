@@ -19,7 +19,6 @@ class ToDoListViewController: UITableViewController {
         super.viewDidLoad()
         
         print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
-//        searchBar.delegate = self
         loadItems()
         
     }
