@@ -9,4 +9,6 @@ import Foundation
 struct Constant {
     static let categoryCell = "CategoryCell"
     static let todoCell = "ToDoItemCell"
+    
+    static let itemSegue = "goToItems"
 }
